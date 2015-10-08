@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #8fb9ff;
+	background-image:url(../img/backborder.png);
+	background-size:35px auto;
+}
+div#wrap {
+	width: 980px;
+	height: 7080px;
+	background: #8fb9ff;
+	margin: 0 auto;
+	background-image:url(../img/backbar.png);
+	background-repeat:no-repeat;
+	background-size:980px 7080px;
+}
+
+div#header {
+	position: fixed;
+	background: #0060ff;
+	height: 110px;
+	width: 980px;
+	z-index: 990;
+}
+div#pageTop {
+	position: fixed;
+	z-index: 999;
+	bottom: 50px;
+	right: 50px;
+}
+div#pageTop a {
+	display: block;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	height: 50px;
+	width: 50px;
+	background: #000;
+	text-decoration: none;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+div#header h1 {
+	font-size: 72px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	margin-left: 50px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+div#tblNavi {
+	display: none;
+	position:fixed;
+	top: 0px;
+	margin-left: 112px;
+	width: 818px;
+	z-index: 980;
+}
+
+div#glbNavi ul {
+	position:relative;
+	top:300px;
+	padding-top:12px;
+	margin-left: 0px;
+	width: 844px;
+	z-index: 980;
+}
+div#glbNavi ul li {
+	float: left;
+	width: auto;
+	height: 64px;
+}
+
+div#footerNavi {
+	margin:12px;
+	padding:0;
+	width:818px;
+	height:88px;
+	overflow:hidden;
+}
+
+div#footerNavi li {
+	list-style:none;
+	width:256px;
+	float:left;
+}
+
+div#footerNavi li a {
+	display:inline;
+    line-height:30px;
+    text-align:center;
+}
+
+div.navi{
+	top: 0px;
+	margin-left: 112px;
+	width: 818px;
+	z-index: 9999;
+}
+
+div#scroll {
+	width: 980px;
+	height: 3695px;
+	margin: 0 auto;
+	z-index:990;
+}
+
+div#container02 {
+	width: 980px;
+	height: 3075px;
+	margin: 0 auto;
+	z-index:960;
+}
+
+div.contentBlock01 {
+	width: 980px;
+	height:615px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*div.contentBlock01:nth-child(odd){
+	background-color:#FFEFD5;
+}
+div.contentBlock01:nth-child(even){
+	background-color: #E0FFFF;
+}*/
+
+div#contents01, div#contents03, div#contents05, div#contents07{
+	margin-top: -150px;
+	padding-top: 180px;
+}
+
+div#contents02, div#contents04, div#contents06, div#contents08, div#contents09, div#contents10, div#contents11{
+	margin-top: -150px;
+	padding-top: 180px;
+	
+}
+
+div#blockback{
+	top:395px;
+	left:50px;
+	background-image:url(../img/circle.png);
+	background-repeat:no-repeat;
+	background-size:100px 100px;
+	position:relative;
+}
+
+div#scroll h1 {
+	background-color:#ff8400;
+	font-size:45px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding-top:28px;
+	padding-left:50px;
+	padding-bottom:28px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+div#contents01 h1 {
+	top:251px;
+	position:relative;
+}
+
+div#contents02 h1 {
+	top:60px;
+	position:relative;
+}
+
+div#contents03 h1 {
+	top:251px;
+	position:relative;
+}
+
+div#contents04 h1 {
+	top:60px;
+	position:relative;
+}
+
+div#contents05 h1 {
+	top:251px;
+	position:relative;
+}
+
+div#contents06 h1 {
+	top:60px;
+	position:relative;
+}
+
+
+div#scroll h2 {
+	top:100px;
+	left:160px;
+	color:#000;
+	font-size:45px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:bold;
+	position:relative;
+	
+}
+
+/*div#container01 img {
+	top:245px;
+	left:50px;
+}
+
+div#container02 img {
+	top:245px;
+	left:50px;
+}*/
+
+div#container02 h1 {
+	top:-20px;
+	left:160px;
+	color:#ff8400;
+	font-size:45px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:bold;
+	position:relative;
+}
+
+div#container02 h2 {
+	top:100px;
+	left:160px;
+	color:#000;
+	font-size:45px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:bold;
+	position:relative;
+	
+}
+
+div#container p img.right {
+	float: right;
+}
+div#container p img.left {
+	float: left;
+}
+div#container p img {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+div#container p {
+	font-size: 14px;
+	line-height: 180%;
+}
+div#container h2 {
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+div#footer {
+	margin-left:112px;
+	padding: 12px;
+	font-size: 9px;
+	width: 844px;
+	height:88px;
+}
